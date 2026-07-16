@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/", (_req, res) => {
   res.json({ message: "ci-cd pipeline is working fine bhaiya gazab chiz hai" });
+  res.json({ message: "nayi mamla bhi dekh lo" });
 });
 
 app.listen(port, () => {
